@@ -22,7 +22,7 @@ const Index = () => {
         <StorySection />
         <ProblemSection />
         <SolutionSection />
-        <ShowcaseSection />
+       
         <WhyItMattersSection />
         <FinalSection />
       </main>

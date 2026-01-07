@@ -75,13 +75,20 @@ const FinalSection = () => {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 1, delay: 1.6 }}
         >
-          <Button 
-            variant="sacred"
-            size="lg"
-            className="text-lg px-12 py-7"
-          >
-            Begin Reading
-          </Button>
+         <a
+  href="https://paramtigalari.netlify.app"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button 
+    variant="sacred"
+    size="lg"
+    className="text-lg px-12 py-7"
+  >
+    Begin Reading
+  </Button>
+</a>
+
         </motion.div>
 
         {/* Footer note */}
